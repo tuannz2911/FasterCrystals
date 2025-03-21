@@ -7,7 +7,7 @@ This is the main reason why high ping players cannot crystal quickly normally; t
 
 The plugin will only function on Paper (or its compatible forks) and Folia servers.
 
-## Building
+## Building:
 `./gradlew build`
 
 The output file will be located in `./build/libs/FasterCrystals-VERSION-all.jar`.
