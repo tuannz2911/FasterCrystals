@@ -67,6 +67,7 @@ public class FastercrystalsCommand extends AbstractCommand {
         MiniMessage mm = MiniMessage.miniMessage();
         Component component = mm.deserialize(text, Placeholder.parsed("state", state));
         player.sendMessage(component);
+        player.sendActionBar(component);
     }
 
     public void runReload(Player player, CommandArguments args) {
